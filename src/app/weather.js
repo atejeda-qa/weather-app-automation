@@ -1,6 +1,6 @@
 export class Weather {
     constructor(city, country) {
-        this.apiKey = 'e12c9f175cbafd593faf81ead9a8c28b'
+        this.apiKey = process.env.API_KEY
         this.city = city
         this.country = country
     }
